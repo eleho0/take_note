@@ -7,11 +7,11 @@
 ``
 import dis
 
-
->>> dis.dis('i/3')
-  1           0 LOAD_NAME                0 (i)
-              3 LOAD_CONST               0 (3)
-              6 BINARY_TRUE_DIVIDE
-              7 RETURN_VALUE
-
 ``
+> 
+> >>> dis.dis('i/3')
+>   1           0 LOAD_NAME                0 (i)
+>               3 LOAD_CONST               0 (3)
+>               6 BINARY_TRUE_DIVIDE
+>               7 RETURN_VALUE
+> 
