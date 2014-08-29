@@ -11,7 +11,8 @@
 * builtins 内置模块的名字空间
 
 
-         所以，在 Python 中检索一个变量的时候，优先回到 locals 里面来检索，检索不到的情况下会检索 enclosing ，enclosing 没有则到 globals 全局变量里面检索，最后是到 builtins 里面来检索。
+         所以，在 Python 中检索一个变量的时候，优先回到 locals 里面来检索，检索不到的情况下会检索 enclosing ，
+                  enclosing 没有则到 globals 全局变量里面检索，最后是到 builtins 里面来检索。
 
 当然，因为 builtins 的特殊性，我们可以直接在 builtins 里面添加变量，这样就可以在 **任意模块中访问变量** ，不过这种方法太过于变态，不推荐这么做。
 
